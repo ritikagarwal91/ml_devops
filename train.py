@@ -48,8 +48,8 @@ with open('Output.txt', 'a') as f:
     print("accuracy=>",test_acc, file=f)
 
 if(test_acc > 0.85):
-    exit 0
+    print ("successful")
 else:
-    exit 1
+    print("fails")
 
 
